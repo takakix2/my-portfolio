@@ -1,4 +1,4 @@
-// eslint-disable react/no-unescaped-entities
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Home() {
   return (
@@ -13,22 +13,20 @@ export default function Home() {
       <h2 className="text-2xl font-semibold mb-2">Projects</h2>
       <ul className="list-disc ml-6 space-y-1">
         <li>
-          🎮<strong>Tetris Game</strong>: Built with React & TypeScript,
-          exploring state logic and event handling
+          🎮 <strong>Tetris Game</strong>: Built with React & TypeScript
         </li>
         <li>
           📊 <strong>JSON Dashboard Editor</strong>: Dynamic UI for data
-          manipulation & visual structuring
+          manipulation
         </li>
         <li>
-          🔐 <strong>Member Site</strong>: Authentication flow & user management
-          using Next.js
+          🔐 <strong>Member Site</strong>: Auth & user management with Next.js
         </li>
       </ul>
 
       <p className="mt-6 text-sm text-gray-500">
-        Pushed to GitHub and auto-deployed via Vercel. Built from Windows but
-        cloud lives Linux-side!
+        Pushed to GitHub, auto-deployed via Vercel. Built from Windows—don't
+        blame it!
       </p>
     </main>
   );
