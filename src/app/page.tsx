@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">👋 こんにちは、Takakiです！</h1>
         <p className="mb-6 text-lg">
           TypeScriptとReactを活用して、スケーラブルなWebアプリやゲームを開発しています。
-          Next.jsでブログ機能付きポートフォリオを構築中。
+          最近はNext.jsでブログ機能付きポートフォリオを構築中。
         </p>
 
         <div className="flex justify-center gap-4">
